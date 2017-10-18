@@ -65,6 +65,7 @@ class ui(QMainWindow):
 		self.labelE.resize(labelSize, labelSize)
 		self.labelR.resize(labelSize, labelSize)
 		self.inputT.resize(labelSize * 2, labelSize)
+
 		self.labelD.move(10, 10)
 		self.labelE.move(10 + labelSize * 1.5, 10)
 		self.radio1.move(10 + labelSize * 4, 10)
